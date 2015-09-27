@@ -1,0 +1,70 @@
+/*弹出内部样式*/
+/* #ct-div .modal-body{overflow-y:hidden;} */
+#ct-div td {text-align: center;}
+#ct-div {min-width:800px;}
+#ct-div td.creativeImg{position:relative;box-sizing:border-box;width:145px;height:146px;padding:0;}
+#ct-div td.creativeImg img{top:0;left:0;width:160px;height:160px;border:none;z-index:1;}
+#ct-div td.creativeImg .inner-minus{position:absolute;bottom:0;left:0;z-index:2;overflow: hidden;}
+#ct-div td.creativeImg .inner-minus .inner-slider{
+	position: relative;
+	left: -160px;
+	width:160px;height:60px;
+	background: #000 url("../image/icons.png") 238px 475px;
+	filter: alpha(opacity = 70);
+	background: rgba(0, 0, 0, 0.7) url("../image/icons.png") 238px 475px;
+}
+#ct-div td.creativeImg:hover .inner-minus .inner-slider{
+	left: 0;	
+	-webkit-transition:
+		left .2s linear;
+	transition:
+		left .2s linear;
+}
+#ct-div .options{padding:0;margin:1px;background:#FFF;padding:2px;text-align:left;}
+#ct-div .options img{width: 100px;height: 100px;max-height: 100px;max-width: 100px;margin-right: 2px;padding: 2px;border: 2px solid #eee;}
+#ct-div td.creativeEditTd{text-align:left;padding:2px 4px;vertical-align: top;}
+#ct-div td.creativeEditTd input{width: 400px;margin: 2px 10px 1px 2px;}
+#ct-div .creative-thumbnail{max-height:100px;max-width:100px;}
+#ct-div .creative-thumbnail:hover{border:2px solid #CCC;}
+#ct-div .creative-thumbnail:active{border:2px solid #7dc0b9;}
+
+.input-append {/*margin-left: 54px!important;*/}
+#itemTitle{
+    width:auto;
+    border: 0;
+}
+
+.oper-area img{width:32px;height:32px;}
+.operation-list{
+	padding: 1px 0;
+	text-align: center;
+	display: inline-block;
+}
+.operation-list .btn{margin-left:3px;}
+
+.select_goods{height:auto;}
+/*.goods_name span{vertical-align: middle;display:inline-block;*display:inline;*zoom:1;}*/
+/*.goods_name span a{white-space: normal;}*/
+
+#ct-div form {
+	margin-bottom: 0;
+}
+/* #ct-div.modal{ */
+/* 	position:fixed; */
+/* 	z-index: 1041; */
+/* 	top:0; */
+/* 	left:0; */
+/* 	right:0; */
+/* 	bottom:0; */
+/* 	margin:auto !important; */
+/* } */
+.btn-group .dropdown-menu li > a{
+	padding: 3px 10px;
+}
+.btn-group .dropdown-menu li a span.badge{
+	float:right;
+}
+
+.dropdown_filter {
+    float: right;
+}

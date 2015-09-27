@@ -1,0 +1,663 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*/////////CSS BY PLUG.BE - MATHIEU VERSTRAETE///////////*/
+
+
+/*////////////ALGEMEEN/////////////*/
+body {
+	color:#7b7b7b;
+	padding:0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+}
+h1 {
+	font-size:40px; letter-spacing:-1px; color:#60707c;
+	margin:0px;
+	padding:0px 0 10px 0;
+	letter-spacing:-2px;
+	font-weight:normal;
+	text-transform:uppercase;
+	
+}
+img {
+	border:0px;
+	-ms-interpolation-mode: bicubic; 
+}
+h2 {
+	font-size: 24px; letter-spacing:-1px; color:#60707c; text-transform:uppercase; line-height:20px;
+	margin:0px 0 0 0;
+	padding:0px 0 0px 0;
+	
+	
+}
+h3 {
+	font-size: 24px; letter-spacing:-1px; color:#ed9320; text-transform:uppercase;
+	line-height:20px;
+	margin:0px;
+	padding:0px 0 0px 0;
+	font-weight:bold;
+}
+h4 {
+	font-size:14px;
+	font-weight:bold;
+	color:#ed9320;
+	padding-bottom:0px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+}
+a {
+	color:#60707c;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+	
+}
+strong {
+	font-weight:bold;
+	color:#333;
+}
+p {
+	line-height:20px;
+	padding:0 0 15px 0;
+	margin:0px;
+	color:#737373;
+	}
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0 0 15px 0;
+}
+
+ul li{
+	margin-bottom:1px;
+	padding-left:18px;
+	background:url(../images/bullet.png) no-repeat left 4px;
+	color:#d0dae1;
+	}
+table{
+	margin:0px;
+	padding:0 0 18px 0;
+	}
+.top{
+	float:right;
+	}
+.geel{
+	color:#ffd600;
+	}
+.zwart{
+	color:#000;
+	}
+#wrapper {
+	margin:0px;
+	padding:0px;
+}
+
+#header{
+	width:100%;
+	height:799px;
+	background:url(../images/bbs.jpg) top center no-repeat;
+	position:relative;
+	z-index:100;
+	}
+	
+#innerheader{
+	width:950px;
+	margin:0px auto 0px auto;
+	}
+
+#innerheader #logo{
+	width: 775px;
+	float:left;
+	margin-left:90px;
+	margin-top:250px;
+	
+	}
+	
+#innerheader #menu{
+	width:610px;
+	float:right;
+	margin-top:34px;
+	}
+	
+#innerheader #menu ul{
+	list-style-type:none;
+	
+	}
+	
+#innerheader #menu ul li{
+	float:left;
+	padding:0px;
+	background:none;
+	}
+	
+
+
+#innerheader #menu{width:950px; margin: 0 auto; }
+#innerheader #menu ul{list-style-type:none; margin-left:80px; margin-top:10px;}
+#innerheader #menu ul li{float:left; }
+#menu #btn_waaromdeelnemen{margin-top:0px;}
+#menu #btn_bekijkbeursplan{margin-top:40px; margin-left:-20px;}
+#menu #btn_praktischeinfo{margin-left:-20px;}
+#menu #btn_deelnamevoorwaarden{margin-top:60px; margin-left:-30px;}
+#menu #btn_contacteerons{margin-left:-40px; margin-top:0px;}
+
+
+	
+#waaromdeelnemen{
+	width:100%;
+	background:url(../images/bbs2.jpg) top center no-repeat;
+	float:left;
+	clear:both;
+	height:771px;
+	}
+	
+#innerwaaromdeelnemen{
+	width:950px;
+	margin:0px auto 0px auto;
+	margin-top:70px;
+	}
+	
+
+#innerwaaromdeelnemen h1{font-size:60px; text-transform:uppercase; color:#ed9320; line-height:10px; letter-spacing:-1px;}
+#innerwaaromdeelnemen .nummer{font-size:85px; font-weight:bold; color:#ed9320; padding:0px; margin-top:60px; line-height:60px; letter-spacing:-5px;}
+#innerwaaromdeelnemen .fact{font-size:18px; text-transform:uppercase; color:#cbd5de; padding:0px; margin:0px; letter-spacing:-1px;}
+#innerwaaromdeelnemen #leftfacts{width:425px; float:left; text-align:right; padding-right:25px; }
+#innerwaaromdeelnemen #rightfacts{width:425px; float:right; padding-left:50px; border-left:1px dotted #9aa5ae;}
+
+
+.wit{color:#fff;}
+	
+#beursplan{
+	width:100%;
+	float:left;
+	clear:both;
+	height:758px;
+	background:url(../images/bbs3.jpg) top center no-repeat;
+	
+	}
+	
+#innerbeursplan{
+	width:950px;
+	margin:0px auto 0px auto;
+	padding:0px;
+	margin-top:70px;
+	}
+	
+#innerbeursplan #beursplan { background: url(../images/beursplan.png) transparent 40% 0 no-repeat; padding: 0; margin: 0; width: 868px; position: relative; margin: 0 auto; height: 290px; margin-top:0px; float:left;}
+#innerbeursplan #themas{width:950px; clear:both; margin-top:50px; float:left;}
+#innerbeursplan #themas div{float:left; width:300px;}
+#innerbeursplan #themas .button{width:90px;}
+#innerbeursplan #themas #thema2, #innerbeursplan #themas #thema3{margin-left:25px;}
+#innerbeursplan #themas td{vertical-align:top;}
+	
+
+	
+#praktischeinfo{
+	width:100%;
+	background:url(../images/bbs4.jpg) top center no-repeat;
+	float:left;
+	clear:both;
+	
+	height:589px;
+	}
+	
+#innerpraktischeinfo{
+	width:950px;
+	margin:0px auto 0px auto;
+	padding:0px;
+	margin-top:90px;
+	}
+	
+#innerpraktischeinfo h1{
+	color:#fff;
+	}
+	
+#innerpraktischeinfo h2{
+	color:#fff;
+	font-size:21px;
+	}
+	
+#innerpraktischeinfo p{
+	color:#efe1cf;
+	}
+	
+#innerpraktischeinfo .praktischkolom{
+	width:250px;
+	padding-left:65px;
+	border-left:1px dotted #efe1cf;
+	margin-top:30px;
+	float:left;
+	
+	height:333px;
+	}
+	
+#innerpraktischeinfo strong{
+	color:#fff;
+	}
+	
+
+	
+#deelnamevw{
+	width:100%;
+	background:url(../images/bbs5.jpg) top center no-repeat;
+	float:left;
+	clear:both;
+	padding:0px 0 0px 0;
+	height:930px;
+	}
+	
+#innerdeelnamevw{
+	width:950px;
+	margin:0px auto 0px auto;
+	padding:0px;
+	margin-top:70px;
+	}
+	
+#innerdeelnamevw #left{
+	width:460px;
+	float:left;
+	
+	margin-top:30px;
+	
+	}
+	
+
+	
+#innerdeelnamevw #right{
+	width:460px;
+	float:right;
+	padding-left:0px;
+	margin-top:23px;
+	}
+
+#innerdeelnamevw h1{
+	color:#fff;
+	}
+
+#innerdeelnamevw h2{
+	padding:0px 0 5px 0;
+	}
+	
+.prijzentabel{
+	width:100%;
+	}
+	
+.prijzentabel td{
+	padding: 4px 0px 4px 0px;
+	border-bottom:1px dotted #d0dae1;
+	color:#d0dae1;
+	}
+	
+#innerdeelnamevw p{
+	
+	color:#d0dae1;
+	}
+	
+#innerdeelnamevw strong{
+	color:#fff;
+	}
+	
+#innerdeelnamevw h2{
+	font-size:16px;
+	color:#ed9320;
+	}
+	
+#contact{
+	width:100%;
+	background:url(../images/bbs6.jpg) top center no-repeat;
+	float:left;
+	clear:both;
+	height:253px;
+	
+	
+	
+	}
+
+
+
+	
+
+	
+#innercontact{
+	width:950px;
+	margin:0px auto 0px auto;
+	padding:0px;
+	margin-top:70px;
+	}
+	
+#innercontact p{
+	line-height:24px;
+	}
+	
+#credits{
+	width:100%;
+	background-color:#39434b;
+	float:left;
+	clear:both;
+	
+	height:75px;
+	}
+	
+#innercredits{
+	width:950px;
+	margin:0px auto 0px auto;
+	padding:0px;
+	}
+	
+#innercredits #menu{
+	float:left;
+	width:400px;
+	margin-top:25px;
+	}
+	
+#innercredits #artexis{
+	float:right;
+	width:400px;
+	text-align:right;
+	margin-top:23px;
+	}
+
+#innercredits p{
+	font-size:11px;
+	color:#87939d;
+	}
+#innercredits a{
+	color:#fff;
+	text-decoration:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+/*////////////////////DEELNAMEFORMULIER////////////////////*/
+#deelnameformulier{
+	background:url(../images/bg_deelnameformulier.jpg) top center repeat;
+	}
+	
+#wrapper_deelnameformulier {
+	margin:0px;
+	padding:0px;
+	width:950px;
+	margin: 55px auto 0 auto;
+}
+
+#wrapper_deelnameformulier #left {
+	float:left;
+	width:230px;
+	padding-right:70px;
+	}
+	
+#wrapper_deelnameformulier #left #logo {
+	margin-left:-16px;
+	margin-bottom:35px;
+	}
+	
+#wrapper_deelnameformulier #left p{
+	font-size:11px;
+	text-align:right;
+	}
+	
+#wrapper_deelnameformulier #content {
+	float:right;
+	width:520px;
+	background-color:#fff;
+	padding:65px;
+	min-height:600px;
+	margin-bottom:50px;
+	}
+	
+.tekstveld{
+	background:url(../images/bg_textbox.jpg) top center repeat-x;
+	display:block;
+	padding:5px 0 5px;
+	border:1px solid #cecece;
+	}
+	
+.error{
+	color:#F00;
+	font-size:10px;
+	}
+.deelnametabel{width:100%;}
+	
+.deelnametabel td{
+	vertical-align:top;
+	}
+	
+.veldlabel{
+	padding-top:5px;
+	}
+	
+#totaaltabel{
+	width:100%;
+	
+	}
+	
+#totaaltabel td{
+	height:60px;
+	background-color:#f6f6f6;
+	}
+	
+#stappen{
+	width:520px;
+	}
+	
+#stappen td{
+	height:52px;
+	}
+	
+#stappen h2{
+	margin-top:5px;
+	}
+	
+#stappen p{
+	padding-bottom:5px;
+	font-size:11px;
+	}
+	
+.font_normal_07em_black{
+	
+	border-bottom:1px dotted #ccc;
+	display:block;
+	padding-top:15px;
+	}
+	
+.font_normal_07em_black .intro{
+	
+	border-bottom:1px dotted #ccc;
+	margin-bottom:15px;
+	}
+	
+#wrapper_hal{
+	width:100%;
+	margin:0 auto 0 auto;
+	}
+	
+#icon{
+	clear:both;
+	float:left;
+	margin-left:-25px;
+	width:351px;
+	}
+	
+#hal_content{
+	float:left;
+	border-left:1px dotted #ccc;
+	width:300px;
+	padding-left:40px;
+	margin-top:30px;
+	height:95px;
+	padding-top:15px;
+	}
+	
+#kaart{
+	float:left;
+	clear:both;
+	}
+	
+#button{
+	float:right;
+	width:147px;
+	margin-top:15px;
+	}
+	
+#rechts_hal{
+	float:left;
+	width:400px;
+	margin-left:40px;
+	}
+	
+#rechts_hal #hal_content{
+	float:left;
+	border-left:none;
+	width:300px;
+	padding-left:20px;
+	
+	padding-top:30px;
+	
+	margin-top:30px;
+	border-top:1px dotted #ccc;
+	border-bottom:1px dotted #ccc;
+	}
+	
+#rechts_hal #icon{
+	clear:both;
+	float:left;
+	margin-left:-25px;
+	width:351px;
+	
+	}
+	
+#rechts_hal #button{
+	float:left;
+	width:147px;
+	margin-top:70px;
+	clear:both;
+	}
+	
+.btninvullen{
+	float:right;
+	position:relative;
+	z-index:110;
+	width:147px;
+	}
+	
+#back{
+	background-color:#60707c;
+	height:30px;
+	color:#fff;
+	border:none;
+	
+	}
+	
+#next{
+	background-color:#ed9320;
+	height:30px;
+	color:#fff;
+	border:none;
+	
+	}
+	
+#btninvullen_top{
+	margin-top:63px;
+	margin-left:10px;
+	
+	}
+	
+#btninvullen_contact{
+	margin-top:-50px;
+	}
+	
+#btninvullen_praktisch{
+	margin-top:40px;
+	clear:right;
+	z-index:110;
+	position:relative;
+	}
+	
+#blancobtn{
+	float:right;
+	margin-top:-130px;
+	margin-right:-80px;
+	}
+	
+#btwopmerking{
+	padding: 10px 20px 10px 20px;
+	margin-top:25px;
+	margin-bottom:25px;
+	background-color:#f6f6f6;
+	border:1px solid #cecece;
+	}
+	
+#btndownloadplan{
+	float:right;
+	margin-top:165px;
+	}
+	
+#contactgegevens{
+	float:left;
+	
+	width:700px;
+	}
+	
+#talen{
+	width:80px;
+	float:right;
+	padding-right:20px;
+	padding-top:20px;
+	height:38px;
+	}
+	
+#talen #nl a{
+	display:block;
+	width:38px;
+	height:38px;
+	background:url(../images/nl.png) top center no-repeat;
+	float:left;
+	}
+	
+#talen #nl a:hover, #talen #nl .active{
+	
+	background:url(../images/nl.png) bottom center no-repeat;
+	
+	}
+	
+#talen #fr a{
+	display:block;
+	width:38px;
+	height:38px;
+	background:url(../images/fr.png) top center no-repeat;
+	float:right;
+	}
+	
+#talen #fr a:hover, #talen #fr .active{
+	
+	background:url(../images/fr.png) bottom center no-repeat;
+	
+	}
+	
+#videobtn{
+	width:218px;
+	float:left;
+	position:absolute;
+	z-index:100;
+	}
+	
+#terug{
+	top:100px;
+	position:relative;
+	padding:15px 20px;
+	background:#f6f6f6;
+	text-decoration:none;
+	}
+#terug:hover{
+	
+	background:#cecece;
+	}

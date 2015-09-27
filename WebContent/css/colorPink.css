@@ -1,0 +1,301 @@
+html {
+	background: url(../image/bgTexturePink.png) rgba(238, 233, 219, 1);
+}
+
+/* 
+ * Logo --*/
+.logo {
+	/*background: url("../image/logo.png") 0 -30px no-repeat;*/
+}
+
+.top_bar, /*Top_bar --*/
+#header, /*Login Header --*/
+.m-message-head, /* Messages --*/
+.modal-header {
+	background: url(../image/loginHeaderBgPink.png) repeat-x rgba(137, 110, 0, 1);
+}
+.header {
+	background: rgba(255, 246, 236, 1);
+}
+.alert-info {
+	color: rgba(192, 152, 83, 1);
+	border: 1px solid rgba(251, 238, 213, 1);
+	background-color: rgba(252, 248, 227, 1);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.alertTriangle {
+	border-bottom: 17px solid rgba(252, 248, 227, 1);
+}
+.triangle { 
+	border-top: 17px solid rgba(255, 246, 236, 1);
+}
+
+
+/*
+ * Menu --*/
+.menu {
+	background: rgba(230, 160, 138, 1);
+}
+
+.menu > ul > li {
+	background: rgba(230, 160, 138, 1);
+	border-right: 1px solid rgba(199, 150, 45, 1);
+	border-left: 1px solid rgba(233, 212, 193, 1);
+}
+
+.menu > ul > li:hover {
+	background: rgba(243, 75, 122, 1);
+}
+
+/* 
+ * Menu Selected --*/
+#home .menu > ul > li.home, 
+#campaign .menu > ul > li.campaign, 
+#item .menu > ul > li.item, 
+#quickAaddKeyworg .menu > ul > li.item, 
+#keyword .menu > ul > li.item, 
+#attention .menu > ul > li.attention,
+#repeatCheck .menu > ul > li.repeatCheck,
+#edit-all .menu > ul > li.edit-all {
+	background-color: rgba(224, 183, 77, 1) !important;
+}
+
+.selectStyle .active,
+#keyword .nav.nav-tabs .active a,
+#quickAaddKeyworg .nav.nav-tabs .active a {
+	background-color: rgba(224, 183, 77, 1)!important;
+}
+
+/*
+ * Footer --*/
+.footer {
+	background: url("../image/cl.png") rgba(245, 121, 90, 1) repeat-x center top;
+}
+
+/* .footer_bottom {
+	background: rgba(228, 107, 65, 1);
+} */
+
+/*
+ * Dropdown-menu --*/
+.dropdown-menu>li>a:hover, 
+.dropdown-menu>li>a:focus, 
+.dropdown-submenu:hover>a, 
+.dropdown-submenu:focus>a {
+	background-color: #e46d43;
+	background-image: -moz-linear-gradient(top, rgba(228, 109, 67,1), rgba(228, 109, 67,0.4));
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(228, 109, 67,1)), to(rgba(228, 109, 67,0.4)));
+	background-image: -webkit-linear-gradient(top, rgba(228, 109, 67,1), rgba(228, 109, 67,0.4));
+	background-image: -o-linear-gradient(top, rgba(228, 109, 67,1), rgba(228, 109, 67,0.4));
+	background-image: linear-gradient(to bottom, rgba(228, 109, 67,1), rgba(228, 109, 67,0.4));
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e46d43', endColorstr='#d76740', GradientType=0);
+}
+
+/*
+ * Progress --*/
+.progress .bar {
+	background-color: #faa732;
+	background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+	background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+	background-image: -o-linear-gradient(top, #fbb450, #f89406);
+	background-image: linear-gradient(to bottom, #fbb450, #f89406);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+}
+
+.progress-striped .bar {
+	background-color: #fbb450;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progressNews li {
+	border-left: 3px solid rgba(255, 178, 153, 1);
+}
+
+/*
+ * Button --*/
+.button,
+.box form .button {
+	background: rgba(230, 160, 138, 1);
+	border-bottom: 2px solid rgba(170, 118, 102, 1);
+}
+
+.button:hover {
+	background: #34C01A;
+}
+
+/*
+ * 滑动 Button --*/
+.arrows_btn,
+.arrows_btn:hover {
+	background-color: #34C01A!important;
+}
+
+/*
+ * Messages --*/
+.m-message-head,
+.modal-header {
+	background: url(../image/loginHeaderBgPink.png) repeat-x rgba(137, 110, 0, 1);
+}
+
+/* AccountList
+ * ----------------------------  */
+
+/*
+ * User Button --*/
+.operation_btn a {
+	background: rgba(228, 109, 67, 0.2);
+}
+
+.operation_btn a:hover {
+	background: #017ba4;
+}
+
+/*
+ * User --*/
+.user {
+	background: #effcef;
+}
+
+.user:hover {
+	background: #e3f7e3;
+}
+
+/*
+ * Cards --*/
+.card_header {
+	background: rgba(255, 178, 153, 1);
+	border-bottom: 5px solid rgba(255, 211, 197, 1);
+}
+
+.card_reportForms,
+.chart {
+	background: rgba(255, 251, 247, 1);
+}
+
+.chart,
+#detailed,
+#Badges-area,
+#data-area {
+	border-top: 12px solid rgba(255, 178, 153, 1);
+}
+
+.modal-body,
+.modal-body .card,
+.modal-footer {
+	background: rgba(252, 249, 237, 1);
+}
+
+input {
+	background: url(../image/loginInputShadow.png) repeat-x;
+}
+
+#header {
+	background: url(../image/loginHeaderBgPink.png) repeat-x rgba(137, 110, 0, 1);
+}
+
+#login {
+	background: url(../image/bgTexturePink.png) #dbe7ee;
+}
+
+.box form .button {
+	background: rgba(230, 160, 138, 1);
+	border-bottom: 2px solid rgba(170, 118, 102, 1);
+}
+
+#error_explanation {
+	background: rgba(255, 178, 153, 1);
+}
+
+#footer-container,
+.box form .text-field input, 
+.box form .text-area textarea,
+.table-bordered, /*-- Table边线 --*/
+.table th, 
+.table td {
+	border: 1px solid rgba(237, 223, 208, 1);
+}
+
+/*
+ * Tooltip --*/
+.tooltip-inner {
+	background-color: rgba(87, 56, 10, 0.85);
+}
+
+.tooltip.top .tooltip-arrow {
+	border-top-color: rgba(87, 56, 10, 0.85);
+}
+
+.dropdown .dropdown-list .dropdown-itemover {
+	background-color: rgba(228, 109, 67, .5);
+	color: #fff
+}
+
+.dropdown .dropdown-hd {
+	background-color: #FFF7EF;
+	background-image: -moz-linear-gradient(top, #FFF7EF, #FFF0E7);
+	background-image: -ms-linear-gradient(top, #FFF7EF, #FFF0E7);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF7EF), to(#FFF0E7));
+	background-image: -webkit-linear-gradient(top, #FFF7EF, #FFF0E7);
+	background-image: -o-linear-gradient(top, #FFF7EF, #FFF0E7);
+	background-image: linear-gradient(top, #FFF7EF, #FFF0E7);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF7EF', endColorstr='#FFF0E7', GradientType=0);
+}
+
+.badgeDiv {
+	background: rgba(248, 246, 232, 1)!important;
+}
+
+.tab-pane.active {
+	background: #fff;
+}
+
+.table thead th,
+.tabbable .active > a,
+.tabbable .active > a:hover {
+	background: rgba(244, 236, 210, 1);
+}
+.card,
+.summary {
+	background: rgba(248, 246, 232, 1);
+}
+.goods,
+.select_goods {
+	border-top: 5px solid #ffb299;
+	-webkit-box-shadow: 0px 1px 1px #978A7A;
+	-moz-box-shadow: 0px 1px 1px #978A7A;
+	box-shadow: 0px 1px 1px #978A7A;
+}
+
+.goods_price, 
+.goods_volume,
+.goods_tip,
+.goods_name span:first-child {
+	background: #ffb299;
+}
+
+.search_button:hover {
+	background: rgba(245, 163, 136, 1);
+}
+
+.search_button {
+	border-left: 2px solid rgba(245, 163, 136, 1);
+}
+
+/* 投放中 状态 */
+.throwIn > a,
+.throwIn > a:hover {
+	background: #F78C8C; /* pink  */
+}
+/* 暂停中 状态 */
+.pause > a,
+.pause > a:hover {
+	background: rgba(211, 197, 141, 0.5) !important; /* pink  */
+}

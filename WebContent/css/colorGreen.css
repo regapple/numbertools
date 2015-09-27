@@ -1,0 +1,306 @@
+html {
+	background: url(../image/bgTextureGreen.png) #dbe7ee;
+}
+
+/* 
+ * Logo --*/
+.logo {
+	/*background: url("../image/logo.png") 0 -30px no-repeat;*/
+}
+
+.top_bar, /*Top_bar --*/
+#header, /*Login Header --*/
+.m-message-head, /* Messages --*/
+.modal-header {
+	background: url(../image/loginHeaderBgGreen.png) repeat-x #5a9e51;
+}
+.header {
+	background: #effcef;
+}
+.alert-info {
+	color: rgba(90, 155, 81, 1);
+	border-color: rgba(233, 233, 233, 1);
+	background-color: rgba(247, 247, 247, 1);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.alertTriangle {
+	border-bottom: 17px solid rgba(223, 255, 233, 1);
+}
+.triangle { 
+	border-top: 17px solid #effcef;
+}
+
+
+/*
+ * Menu --*/
+.menu {
+	background: #86d186;
+}
+
+.menu > ul > li {
+	background: #86d186;
+	border-right: 1px solid #71b667;
+	border-left: 1px solid #d0edd0;
+}
+
+.menu > ul > li:hover {
+	background: #34C01A;
+}
+
+/* 
+ * Menu Selected --*/
+#home .menu > ul > li.home, 
+#campaign .menu > ul > li.campaign, 
+#item .menu > ul > li.item, 
+#quickAaddKeyworg .menu > ul > li.item, 
+#keyword .menu > ul > li.item, 
+#attention .menu > ul > li.attention,
+#repeatCheck .menu > ul > li.repeatCheck,
+#edit-all .menu > ul > li.edit-all {
+	background-color: rgba(52, 192, 26, 1) !important;
+}
+
+.selectStyle .active,
+#keyword .nav.nav-tabs .active a,
+#quickAaddKeyworg .nav.nav-tabs .active a {
+	background-color: rgba(52, 192, 26, 1) !important;
+}
+
+/*
+ * Footer --*/
+.footer {
+	background: url("../image/cl.png") #70c570 repeat-x center top;
+}
+
+/* .footer_bottom {
+	background: #65b165;
+} */
+
+/*
+ * Dropdown-menu --*/
+.dropdown-menu>li>a:hover, 
+.dropdown-menu>li>a:focus, 
+.dropdown-submenu:hover>a, 
+.dropdown-submenu:focus>a {
+	background-color: #70c570;
+	background-image: -moz-linear-gradient(top, #70c570, #65b165);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70c570), to(#65b165));
+	background-image: -webkit-linear-gradient(top, #70c570, #65b165);
+	background-image: -o-linear-gradient(top, #70c570, #65b165);
+	background-image: linear-gradient(to bottom, #70c570, #65b165);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70c570', endColorstr='#65b165', GradientType=0);
+}
+
+/*
+ * Progress --*/
+.progress .bar {
+	background-color: #5eb95e;
+	background-image: -moz-linear-gradient(top, #62c462, #57a957);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));
+	background-image: -webkit-linear-gradient(top, #62c462, #57a957);
+	background-image: -o-linear-gradient(top, #62c462, #57a957);
+	background-image: linear-gradient(to bottom, #62c462, #57a957);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff57a957', GradientType=0);
+}
+
+.progress-striped .bar {
+	background-color: #62c462;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progressNews li {
+	border-left: 3px solid #a7dabb;
+}
+
+#footer-container,
+.box form .text-field input, 
+.box form .text-area textarea,
+.table-bordered, /*-- Table边线 --*/
+.table th, 
+.table td  {
+	border-color: #d0edd0;
+}
+
+/*
+ * Button --*/
+.button,
+.box form .button {
+	background: #86d186;
+	border-bottom: 2px solid #528b86;
+}
+
+.button:hover {
+	background: #34C01A;
+}
+
+/*
+ * 滑动 Button --*/
+.arrows_btn,
+.arrows_btn:hover {
+	background-color: #34C01A!important;
+}
+
+/*
+ * Messages --*/
+.m-message-head,
+.modal-header {	
+	background: url(../image/loginHeaderBgGreen.png) repeat-x #5a9e51;
+}
+
+/* AccountList
+ * ----------------------------  */
+
+/*
+ * User Button --*/
+.operation_btn a {
+	background: rgba(134,209,134, 0.5);
+}
+
+.operation_btn a:hover {
+	background: #e36b2c;
+}
+
+/*
+ * User --*/
+.user {
+	background: #effcef;
+}
+
+.user:hover {
+	background: #e3f7e3;
+}
+
+/*
+ * Cards --*/
+.card_header {
+	background: #a7dabb;
+	border-bottom: 5px solid #bdedd0;
+}
+
+.card_reportForms,
+.chart {
+	background: #F7FFF7;
+}
+
+.chart,
+#detailed,
+#Badges-area,
+#data-area {
+	border-top: 12px solid #a7dabb;
+}
+
+.modal-body,
+.modal-body .card,
+.modal-footer {
+	background: rgba(242, 255, 245, 1);
+}
+
+input {
+	background: url(../image/loginInputShadow.png) repeat-x;
+}
+
+#header {
+	background: url(../image/loginHeaderBgGreen.png) repeat-x #5a9e51;
+}
+
+#login {
+	background: url(../image/bgTextureGreen.png) #dbe7ee;
+}
+
+.box form .text-field input, 
+.box form .text-area textarea {
+	background: url(../image/loginInputShadowGreen.png) repeat-x;
+}
+
+.actions .button {
+	background: #5a9e51;
+}
+
+.actions .button:hover {
+	background: #34C01A;
+}
+
+#error_explanation {
+	background: #4FE095;
+}
+
+.dropdown .dropdown-list .dropdown-itemover {
+	background-color: #70c570;
+	color: #fff
+}
+
+.dropdown .dropdown-hd {
+	background-color: #FFF7EF;
+	background-image: -moz-linear-gradient(top, #EFFFF1, #E7FFEC);
+	background-image: -ms-linear-gradient(top, #EFFFF1, #E7FFEC);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EFFFF1), to(#E7FFEC));
+	background-image: -webkit-linear-gradient(top, #EFFFF1, #E7FFEC);
+	background-image: -o-linear-gradient(top, #EFFFF1, #E7FFEC);
+	background-image: linear-gradient(top, #EFFFF1, #E7FFEC);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFFFF1', endColorstr='#E7FFEC', GradientType=0);
+}
+
+.badgeDiv {
+	background: rgba(248, 246, 232, 1)!important;
+}
+
+.tab-pane.active {
+	background: #fff;
+}
+
+.table thead th,
+.tabbable .active > a,
+.tabbable .active > a:hover {
+	background: rgba(210, 244, 215, 1);
+}
+
+.active > a,
+.active > a:hover,
+.table thead th {
+	background: rgba(221, 243, 220, 1);
+}
+.card,
+.summary {
+	background: rgba(239, 248, 237, 1);
+}
+
+.goods,
+.select_goods {
+	border-top: 5px solid rgba(167, 218, 187, 1);
+	-webkit-box-shadow: 0px 1px 1px #7B977A;
+	-moz-box-shadow: 0px 1px 1px #7B977A;
+	box-shadow: 0px 1px 1px #7B977A;
+}
+
+.goods_price, 
+.goods_volume,
+.goods_tip,
+.goods_name span:first-child {
+	background: rgba(167, 218, 187, 1);
+}
+
+.search_button:hover {
+	background: rgba(141, 204, 166, 1);
+}
+
+.search_button {
+	border-left: 2px solid rgba(141, 204, 166, 1);
+}
+
+/* 投放中 状态 */
+.throwIn > a,
+.throwIn > a:hover {
+	background: #46C99F; /* green */
+}
+/* 暂停中 状态 */
+.pause > a,
+.pause > a:hover {
+	background: rgba(134, 209, 134, 0.5) !important; /* green */
+}

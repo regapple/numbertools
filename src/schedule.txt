@@ -1,0 +1,3 @@
+#备份数据到excel
+0 10 * * * java:com.song.order.action.BackUpTraderOrder#backUp
+

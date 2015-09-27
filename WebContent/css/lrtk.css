@@ -1,0 +1,78 @@
+.imgBox {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	/*padding-right: 10px;
+	margin-right: 10px;*/
+	/*margin-bottom: 15px;*/
+	cursor: pointer;	
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+}
+.imgBox .in {
+	width: 30px;
+	height: 30px;
+	margin: 1px;
+	display: inline-block;
+}
+.imgBox .in p {
+	display: none;
+	text-align: left;
+}
+.imgBox.on {
+	border-radius: 15px;
+	background: #ddd;
+	-webkit-background-size: 60%;
+	-o-background-size: 60px;
+}
+.imgBox.on:before {
+	content: "";
+	width: 12px;
+	height: 12px;
+	margin: 10px;
+	border-radius: 6px;
+	background: #CABFBF;
+	display: block;
+	clear: both;
+}
+.imgBox.on .in {
+	position: absolute;
+	top: -40px;
+	width: 200px;
+	height: auto;
+	margin-left: 36px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #fff;
+	z-index: 100;
+}
+.imgBox.on .in:before {
+	content: "";
+	float: left;
+	margin: 32px 0px 0 -22px;
+	display: block;
+	clear: both;
+	border-right: 17px solid white;
+	border-bottom: 17px solid transparent;
+	border-top: 17px solid transparent;
+}
+.imgBox.on .in p {
+	position: relative;
+	display: block;
+}
+.imgBox.on img {
+	width: auto;
+	height: auto;
+}
+.bsc {
+	float: right;
+	position: absolute;
+	right: 10px;
+	width: 19px;
+	height: 15px;
+	font-size: 0;
+	background: url(../images/icon01.png) no-repeat;
+}

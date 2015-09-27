@@ -1,0 +1,36 @@
+/*== 返回顶部  =============*/
+.back_to_top {
+	width: 32px;
+	height: 50px;
+	display: none;
+	text-indent: -100px;
+	overflow: hidden;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	z-index: 9999;
+	bottom: 90px;
+	left: 1357px;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+}
+.back_to_top:hover {
+	opacity: 0.5;
+}
+.back_to_top:before {
+	content: '';
+	position: absolute;
+	left: 12px;
+	top: 20px;
+	width: 6px;
+	height: 16px;
+	background: rgba(255,255,255,0.4);
+}
+.back_to_top:after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	border-bottom: 10px solid rgba(255,255,255,0.4);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
