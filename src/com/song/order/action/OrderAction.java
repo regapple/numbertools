@@ -84,10 +84,18 @@ public class OrderAction {
 	}
 	@RequestMapping("queryList")
 	@ResponseBody
-	public Map<String,Object> queryList(@RequestParam("rowPerPage")int rowPerPage,@RequestParam("pageIndex")int pageIndex,@RequestParam("tid")String tid,@RequestParam("owner")String owner){
+	public Map<String, Object> queryList(
+			@RequestParam("rowPerPage") int rowPerPage,
+			@RequestParam("pageIndex") int pageIndex,
+			@RequestParam("tid") String tid,
+			@RequestParam("owner") String owner,
+			@RequestParam("category") String category,
+			@RequestParam("shopRank") String shopRank) {
 		try {
 			tid=URLDecoder.decode(tid, "utf-8");
 			owner=URLDecoder.decode(owner,"utf-8");
+			category=URLDecoder.decode(category,"utf-8");
+			shopRank=URLDecoder.decode(shopRank,"utf-8");
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -110,6 +118,14 @@ public class OrderAction {
 		if(owner!=null&&!"".equals(owner)){
 			where = where +" and owner like ?";
 			o.add("%"+owner+"%");
+		}
+		if(!StringUtils.isBlank(category)){
+			where = where +" and category like ?";
+			o.add("%"+category+"%");
+		}
+		if(!StringUtils.isBlank(shopRank)){
+			where = where +" and shop_rank like ?";
+			o.add("%"+shopRank+"%");
 		}
 		List<Map<String,Object>> ret=bdao.getMysqlJdbcTemplate().queryForList(sql+where,o.toArray());
 		int total =0;
@@ -171,14 +187,6 @@ public class OrderAction {
 		
 	}
 	
-	/*@RequestMapping(value="saveData")
-	@ResponseBody
-	public String uploadFile(@RequestParam("path")String path,@RequestParam("owner")String owner){
-		String msg=convertFile(path, owner);
-		String retMsg="{\"msg\":\""+msg+"\"}";
-		
-		return retMsg;
-	}*/
 	@RequestMapping(value="uploadFile",method=RequestMethod.POST)
 	@ResponseBody
 	public ModelAndView uploadFile(@RequestParam("inputFile")MultipartFile inputFile,String owner){

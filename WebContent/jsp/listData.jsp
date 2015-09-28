@@ -182,7 +182,18 @@
                                        value="" placeholder="淘宝ID" title="淘宝ID" />&nbsp;&nbsp;&nbsp;&nbsp;
                                 <input  type="text" id="owner" name="owner"
                                        value="" placeholder="导入人" title="导入人" />
-                                       
+                                 <select id="category" name="category" style="width:180px">
+                                 	<option value="">选择类目</option>
+                                 	<c:forEach items="${ category}" var="i" begin="0" step="1">
+                                 		<option value="${i}">${i}</option>                                 	
+                                 	</c:forEach>
+                                 </select>  
+                                  <select id="shopRank" name="shopRank" style="width:150px">
+                                 	<option value="">选择店铺级别</option>
+                                 	<c:forEach items="${shopRank}" var="i" begin="0" step="1">
+                                 		<option value="${i}">${i}</option>                                 	
+                                 	</c:forEach>
+                                 </select>      
                                 <button id="mainform-submit" class="search_button"></button>
                             </div>
                         </div>
@@ -357,7 +368,9 @@ document.write("<script type='text/javascript'"+
 				url:'queryList',
 				params:{
 					tid:$("#nick").val(),
-					owner:$("#owner").val()
+					owner:$("#owner").val(),
+					category:$("#category").val(),
+					shopRank:$("#shopRank").val()
 				},
 				columns:columns,
 				currentInfo:{
